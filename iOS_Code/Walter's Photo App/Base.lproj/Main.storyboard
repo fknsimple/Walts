@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AF9-fC-iZa">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Raleway-Bold.ttf">
+            <string>Raleway-Bold</string>
+            <string>Raleway-Bold</string>
+            <string>Raleway-Bold</string>
+        </mutableArray>
+        <mutableArray key="Raleway-Regular.ttf">
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+            <string>Raleway</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="Viewc" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="efew-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="D4S-eA-Vsa">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gs.png" translatesAutoresizingMaskIntoConstraints="NO" id="tOU-7z-Ft4">
+                                <rect key="frame" x="205" y="381" width="358" height="60"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gs.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZBm-2k-yQO">
+                                <rect key="frame" x="205" y="449" width="358" height="60"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZYb-7b-gsE">
+                                <rect key="frame" x="267" y="449" width="289" height="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LL2-zw-9Ri">
+                                <rect key="frame" x="267" y="381" width="289" height="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jW9-ua-fNz">
+                                <rect key="frame" x="205" y="517" width="358" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="28"/>
+                                <state key="normal" title="Sign in" backgroundImage="logout.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signinbtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ys2-7F-a0N"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="help.png" translatesAutoresizingMaskIntoConstraints="NO" id="H4s-7D-EuS">
+                                <rect key="frame" x="337" y="869" width="20" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asdf.png" translatesAutoresizingMaskIntoConstraints="NO" id="JnH-v1-664">
+                                <rect key="frame" x="205" y="381" width="58" height="60"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="waltr.png" translatesAutoresizingMaskIntoConstraints="NO" id="oMg-Ca-g8c">
+                                <rect key="frame" x="234" y="126" width="300" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="key-buttdsdon.png" translatesAutoresizingMaskIntoConstraints="NO" id="wg2-2M-Tlw">
+                                <rect key="frame" x="205" y="449" width="58" height="60"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright 2016 Walter’s Automotive Group. Inc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkx-xL-k0v">
+                                <rect key="frame" x="224" y="983" width="320" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.29803921570000003" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLA-nP-SsV">
+                                <rect key="frame" x="275" y="585" width="219" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="20"/>
+                                <state key="normal" title="Forgot your password?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ForgotPasswordBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="17u-rw-eYC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWq-4u-fyc">
+                                <rect key="frame" x="329" y="864" width="108" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="17"/>
+                                <state key="normal" title="Help">
+                                    <color key="titleColor" red="0.82352941176470584" green="0.16470588235294117" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="helpBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5MC-Xh-C5Q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jhz-9z-hA7"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="passwordTxt" destination="ZYb-7b-gsE" id="upx-Lz-05B"/>
+                        <outlet property="passwordimg" destination="wg2-2M-Tlw" id="sA3-Pl-c1P"/>
+                        <outlet property="signbtn" destination="jW9-ua-fNz" id="b2h-CB-xvy"/>
+                        <outlet property="usernameTxt" destination="LL2-zw-9Ri" id="pW9-2Z-zfW"/>
+                        <outlet property="usernameimg" destination="JnH-v1-664" id="Rg8-Ws-GYo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-839" y="-186"/>
+        </scene>
+        <!--Photo Selection View Controller-->
+        <scene sceneID="3BL-No-3Ld">
+            <objects>
+                <viewController storyboardIdentifier="Selection" id="moz-tF-LJ4" customClass="PhotoSelectionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9HQ-bT-akX"/>
+                        <viewControllerLayoutGuide type="bottom" id="7t8-8O-e0b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JHN-B8-LEK">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="efew-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y1m-Rp-CkK">
+                                <rect key="frame" x="0.0" y="76" width="768" height="948"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Photo Selection" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzb-JQ-b7L">
+                                <rect key="frame" x="298" y="18" width="173" height="26"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WELCOME TO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2Q-gm-PM8">
+                                <rect key="frame" x="199" y="269" width="148" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WALTER'S PHOTO APP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5G-9f-3hu">
+                                <rect key="frame" x="347" y="269" width="235" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="21"/>
+                                <color key="textColor" red="0.71372549019999998" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please choose from the intended recipients below" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9K-lL-EJ6">
+                                <rect key="frame" x="237" y="298" width="294" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jk5-YT-0kO">
+                                <rect key="frame" x="252" y="459" width="110" height="110"/>
+                                <state key="normal" backgroundImage="firstd-icn.png"/>
+                                <connections>
+                                    <action selector="forcustomerbtn:" destination="moz-tF-LJ4" eventType="touchUpInside" id="YfY-qq-Q4C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWs-Ey-1qa">
+                                <rect key="frame" x="253" y="577" width="107" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="15"/>
+                                <state key="normal" title="for Customers">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ev4-hd-4bZ">
+                                <rect key="frame" x="383" y="577" width="138" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="15"/>
+                                <state key="normal" title="for Walter's Auto">
+                                    <color key="titleColor" red="0.71372549019999998" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9D-JH-BFY">
+                                <rect key="frame" x="46" y="20" width="75" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="yDQ-ye-NMK">
+                                <rect key="frame" x="20" y="20" width="18" height="18"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npP-Vd-Ndg">
+                                <rect key="frame" x="396" y="459" width="110" height="110"/>
+                                <state key="normal" backgroundImage="metr-icon.png"/>
+                                <connections>
+                                    <action selector="InternalBtn:" destination="moz-tF-LJ4" eventType="touchUpInside" id="6TU-dm-1P4"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="setting.png" translatesAutoresizingMaskIntoConstraints="NO" id="9aN-1C-Hxo">
+                                <rect key="frame" x="730" y="20" width="18" height="21"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXR-an-AgD">
+                                <rect key="frame" x="714" y="12" width="46" height="47"/>
+                                <connections>
+                                    <action selector="Settingbtn:" destination="moz-tF-LJ4" eventType="touchUpInside" id="v5N-uL-B0e"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright 2016 Walter’s Automotive Group. Inc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dg-Tc-9Hf">
+                                <rect key="frame" x="224" y="983" width="320" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.29803921570000003" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FtF-Ot-J5p"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="joT-6K-GeF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8" y="-186"/>
+        </scene>
+        <!--Sorry View Controller-->
+        <scene sceneID="eRl-WC-og4">
+            <objects>
+                <viewController storyboardIdentifier="Sorry" id="xUz-Fd-Uwt" customClass="SorryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mPs-KZ-biM"/>
+                        <viewControllerLayoutGuide type="bottom" id="dgT-Fn-AOK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1eN-7k-mGz">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="efew-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="cK8-5m-TuJ">
+                                <rect key="frame" x="0.0" y="76" width="768" height="948"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For help " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yyn-Ob-l9k">
+                                <rect key="frame" x="20" y="462" width="728" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please contact" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hh8-bc-Jd6">
+                                <rect key="frame" x="224" y="541" width="114" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqM-aD-6cT">
+                                <rect key="frame" x="335" y="541" width="233" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="16"/>
+                                <state key="normal" title="waltersphoto@waltsmb.com">
+                                    <color key="titleColor" red="0.71372549019999998" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendMail:" destination="xUz-Fd-Uwt" eventType="touchUpInside" id="xij-ZS-oQO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dym-gX-E0Z">
+                                <rect key="frame" x="340" y="608" width="130" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="17"/>
+                                <state key="normal" title="(951) 688-3344">
+                                    <color key="titleColor" red="0.71372549019999998" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="no2-tI-jXl">
+                                <rect key="frame" x="373" y="579" width="23" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="call" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMM-oO-Gbp">
+                                <rect key="frame" x="287" y="608" width="48" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vid-XB-PTs">
+                                <rect key="frame" x="20" y="20" width="20" height="20"/>
+                                <state key="normal" title="Button" image="directiong129.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RRg-Mp-BvV">
+                                <rect key="frame" x="2" y="0.0" width="80" height="63"/>
+                                <connections>
+                                    <action selector="backBtn:" destination="xUz-Fd-Uwt" eventType="touchUpInside" id="aII-Hd-gbv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright 2016 Walter’s Automotive Group. Inc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIf-Jk-iGw">
+                                <rect key="frame" x="224" y="973" width="320" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="waltr.png" translatesAutoresizingMaskIntoConstraints="NO" id="NB3-k7-qz2">
+                                <rect key="frame" x="205" y="226" width="358" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="izm-2G-ULn"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="lblTitleMessage" destination="Yyn-Ob-l9k" id="hiH-45-oMz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Pq-4T-8bx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2562" y="-1349"/>
+        </scene>
+        <!--Customer Information View Controller-->
+        <scene sceneID="iTk-UR-yXf">
+            <objects>
+                <viewController storyboardIdentifier="Info" id="YbH-Wu-qBo" customClass="CustomerInformationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="W2w-rb-zn7"/>
+                        <viewControllerLayoutGuide type="bottom" id="7kZ-9y-xdU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GRS-ZT-aIn">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="efew-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Oyp-tk-nxb">
+                                <rect key="frame" x="0.0" y="76" width="768" height="948"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gs.png" translatesAutoresizingMaskIntoConstraints="NO" id="IH4-0F-SrP">
+                                <rect key="frame" x="203" y="421" width="340" height="60"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gs.png" translatesAutoresizingMaskIntoConstraints="NO" id="5LZ-12-8i5">
+                                <rect key="frame" x="203" y="489" width="340" height="60"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gs.png" translatesAutoresizingMaskIntoConstraints="NO" id="TRq-Vn-6zy">
+                                <rect key="frame" x="203" y="557" width="340" height="60"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p7Q-Y5-8PS">
+                                <rect key="frame" x="276" y="489" width="271" height="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YbH-Wu-qBo" id="XwS-Es-6mT"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TAM-0o-GLF">
+                                <rect key="frame" x="277" y="421" width="271" height="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YbH-Wu-qBo" id="wiT-Gm-qLf"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="EcU-We-V0t">
+                                <rect key="frame" x="20" y="20" width="18" height="18"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="setting.png" translatesAutoresizingMaskIntoConstraints="NO" id="dca-mD-3xJ">
+                                <rect key="frame" x="730" y="20" width="18" height="21"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isd-kg-UqC">
+                                <rect key="frame" x="46" y="20" width="39" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="edv-lC-IYl">
+                                <rect key="frame" x="276" y="557" width="266" height="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YbH-Wu-qBo" id="514-wE-H6o"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbf-9p-6Fg">
+                                <rect key="frame" x="266" y="687" width="110" height="35"/>
+                                <color key="backgroundColor" red="0.37647058823529411" green="0.38039215686274508" blue="0.38431372549019605" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="15"/>
+                                <state key="normal" title="Submit" backgroundImage="gry.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.97999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitbtn:" destination="YbH-Wu-qBo" eventType="touchUpInside" id="9V6-hU-KEi"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ge.png" translatesAutoresizingMaskIntoConstraints="NO" id="7yQ-MN-h0C">
+                                <rect key="frame" x="203" y="489" width="62" height="60"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ge.png" translatesAutoresizingMaskIntoConstraints="NO" id="dIQ-qg-vVK">
+                                <rect key="frame" x="203" y="421" width="62" height="60"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter the Customer Information:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIU-x8-vFX">
+                                <rect key="frame" x="199" y="269" width="370" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mgsds.png" translatesAutoresizingMaskIntoConstraints="NO" id="NoS-cy-Uqf">
+                                <rect key="frame" x="203" y="557" width="62" height="60"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Customer Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raU-sK-AGJ">
+                                <rect key="frame" x="291" y="20" width="228" height="28"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NsW-Qm-9US">
+                                <rect key="frame" x="13" y="15" width="77" height="33"/>
+                                <connections>
+                                    <action selector="gohome:" destination="YbH-Wu-qBo" eventType="touchUpInside" id="uoG-tB-umU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zi4-PE-hmX">
+                                <rect key="frame" x="717" y="8" width="45" height="46"/>
+                                <connections>
+                                    <action selector="Settingbtn:" destination="YbH-Wu-qBo" eventType="touchUpInside" id="ZQB-sY-RD0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7e-f3-CGb">
+                                <rect key="frame" x="392" y="687" width="110" height="35"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.3803921569" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="15"/>
+                                <state key="normal" title="Cancel" backgroundImage="gry.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.97999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelbtn:" destination="YbH-Wu-qBo" eventType="touchUpInside" id="uaR-CY-29L"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright 2016 Walter’s Automotive Group. Inc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccg-rn-v59">
+                                <rect key="frame" x="224" y="983" width="320" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.29803921570000003" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="M2v-xM-AzM"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="cncelbtnn" destination="D7e-f3-CGb" id="7ER-P6-VCQ"/>
+                        <outlet property="email" destination="edv-lC-IYl" id="ULO-Zb-F1u"/>
+                        <outlet property="emailimg" destination="NoS-cy-Uqf" id="4an-D5-G3Q"/>
+                        <outlet property="firstname" destination="TAM-0o-GLF" id="b2T-8e-qU1"/>
+                        <outlet property="firstnameimg" destination="dIQ-qg-vVK" id="PLX-tK-4OX"/>
+                        <outlet property="lastname" destination="p7Q-Y5-8PS" id="Kbe-tv-ay3"/>
+                        <outlet property="lstnmeimg" destination="7yQ-MN-h0C" id="aIE-9c-keN"/>
+                        <outlet property="submit" destination="Rbf-9p-6Fg" id="aeI-aV-r2h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XI0-v2-G9D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="854" y="-192"/>
+        </scene>
+        <!--Custom View Controller1-->
+        <scene sceneID="ehj-an-geT">
+            <objects>
+                <viewController storyboardIdentifier="photo1" id="9WK-Wq-hec" customClass="customViewController1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Utm-zA-aPL"/>
+                        <viewControllerLayoutGuide type="bottom" id="cT8-PZ-OtI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XSr-mp-4iH">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aou-tY-Api">
+                                <rect key="frame" x="0.0" y="76" width="768" height="948"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AXt-dZ-oDj">
+                                        <rect key="frame" x="0.0" y="98" width="768" height="753"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="753" id="9Xt-eW-S3X"/>
+                                            <constraint firstAttribute="width" constant="768" id="QbW-Qk-FH1"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ORa-F1-W5b">
+                                        <rect key="frame" x="0.0" y="98" width="768" height="753"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="768" id="fl8-rH-DF6"/>
+                                            <constraint firstAttribute="height" constant="753" id="xXM-fZ-Qer"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="AXt-dZ-oDj" firstAttribute="centerY" secondItem="aou-tY-Api" secondAttribute="centerY" id="E6J-DE-VKE"/>
+                                    <constraint firstItem="AXt-dZ-oDj" firstAttribute="centerX" secondItem="aou-tY-Api" secondAttribute="centerX" id="U8B-Aj-3MB"/>
+                                    <constraint firstItem="ORa-F1-W5b" firstAttribute="centerX" secondItem="aou-tY-Api" secondAttribute="centerX" id="U8s-Er-F2G"/>
+                                    <constraint firstItem="ORa-F1-W5b" firstAttribute="centerY" secondItem="aou-tY-Api" secondAttribute="centerY" id="eon-g5-a4c"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Take Photo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iP-7d-AtN">
+                                <rect key="frame" x="56" y="19" width="75" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Customer Photo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5b-yd-Pgy">
+                                <rect key="frame" x="274" y="9" width="220" height="35"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Uw-q1-sei">
+                                <rect key="frame" x="20" y="20" width="18" height="18"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="correct.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cqe-4Z-CZ2">
+                                <rect key="frame" x="688" y="432" width="80" height="160"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bf-DO-LEr">
+                                <rect key="frame" x="688" y="472" width="80" height="78"/>
+                                <connections>
+                                    <action selector="gophotoclassbtn:" destination="9WK-Wq-hec" eventType="touchUpInside" id="6dD-sm-DsR"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back-arrow-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="gBM-8j-R0a">
+                                <rect key="frame" x="0.0" y="431" width="80" height="160"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tfk-yA-Ihe">
+                                <rect key="frame" x="47" y="25" width="9" height="10"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iid-AC-HWV">
+                                <rect key="frame" x="0.0" y="473" width="80" height="78"/>
+                                <connections>
+                                    <action selector="gobackphotobtn:" destination="9WK-Wq-hec" eventType="touchUpInside" id="W0U-90-2fj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="setting.png" translatesAutoresizingMaskIntoConstraints="NO" id="p5l-vj-AtB">
+                                <rect key="frame" x="730" y="19" width="18" height="21"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYi-YF-UvN">
+                                <rect key="frame" x="7" y="15" width="38" height="35"/>
+                                <connections>
+                                    <action selector="gohomebtn:" destination="9WK-Wq-hec" eventType="touchUpInside" id="RWm-N8-b6g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9J-pz-cu3">
+                                <rect key="frame" x="48" y="14" width="89" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <connections>
+                                    <action selector="goback:" destination="9WK-Wq-hec" eventType="touchUpInside" id="VNg-gG-Kdc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0z3-0f-ZnD">
+                                <rect key="frame" x="714" y="8" width="50" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="a3W-Q8-90J"/>
+                                    <constraint firstAttribute="width" constant="50" id="sLT-pf-xMb"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="settingbtn:" destination="9WK-Wq-hec" eventType="touchUpInside" id="aOp-EJ-zL4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="cT8-PZ-OtI" firstAttribute="top" secondItem="aou-tY-Api" secondAttribute="bottom" id="GtL-4C-zFa"/>
+                            <constraint firstItem="aou-tY-Api" firstAttribute="leading" secondItem="XSr-mp-4iH" secondAttribute="leading" id="HxU-jS-ZPQ"/>
+                            <constraint firstAttribute="trailing" secondItem="0z3-0f-ZnD" secondAttribute="trailing" constant="4" id="bRE-kc-iDh"/>
+                            <constraint firstAttribute="trailing" secondItem="aou-tY-Api" secondAttribute="trailing" id="k06-su-HZY"/>
+                            <constraint firstItem="0z3-0f-ZnD" firstAttribute="top" secondItem="XSr-mp-4iH" secondAttribute="top" constant="8" id="nuu-2S-WAY"/>
+                            <constraint firstItem="aou-tY-Api" firstAttribute="top" secondItem="0z3-0f-ZnD" secondAttribute="bottom" constant="25" id="reV-dz-RHq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="qzV-ui-Qgu"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="_imageView" destination="AXt-dZ-oDj" id="AnJ-qX-XFJ"/>
+                        <outlet property="frameImageView" destination="ORa-F1-W5b" id="oWc-AP-GRf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KCO-yO-cBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1713" y="-186"/>
+        </scene>
+        <!--Customeragrement View Controller-->
+        <scene sceneID="Ncd-6X-7ZN">
+            <objects>
+                <viewController storyboardIdentifier="Agrement" id="vMl-JO-zqm" customClass="customeragrementViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Osj-bA-XQq"/>
+                        <viewControllerLayoutGuide type="bottom" id="RlI-aY-Lyy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ugq-Vy-IgL">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="efew-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="eJB-f8-A30">
+                                <rect key="frame" x="0.0" y="76" width="768" height="948"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="directiong129.png" translatesAutoresizingMaskIntoConstraints="NO" id="XoL-ov-AYP">
+                                <rect key="frame" x="17" y="21" width="20" height="20"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2E-j5-6Vn">
+                                <rect key="frame" x="8" y="6" width="112" height="63"/>
+                                <connections>
+                                    <action selector="goback:" destination="vMl-JO-zqm" eventType="touchUpInside" id="0pw-jB-Twd"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="4YQ-4Z-kz8">
+                                <rect key="frame" x="20" y="20" width="18" height="18"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMi-Io-q3K">
+                                <rect key="frame" x="12" y="15" width="104" height="33"/>
+                                <connections>
+                                    <action selector="gohome:" destination="vMl-JO-zqm" eventType="touchUpInside" id="DDE-nj-SRI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agreement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKQ-wS-7mD">
+                                <rect key="frame" x="46" y="20" width="75" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Customer Agreement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUG-py-JRp">
+                                <rect key="frame" x="274" y="15" width="220" height="32"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpT-pg-UnP">
+                                <rect key="frame" x="27" y="198" width="714" height="628"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">I hereby grant Walter’s Automotive Group permission to the rights of my image &amp; likeness without payment or any other consideration.  I understand that my image may be exhibited or distributed and waive the right to inspect or approve the finished product wherein my likeness appears. Additionally, I waive any right to royalties or other compensation arising or related to the use of my image.
+ 
+Photographs may be used for the following purposes:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="16" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="108" minimumLineHeight="16" defaultTabInterval="36">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="83"/>
+                                                    <textTab alignment="left" location="108"/>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Company social media, websites, or other related marketing efforts.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="108" minimumLineHeight="16" defaultTabInterval="36">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="83"/>
+                                                    <textTab alignment="left" location="108"/>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="108" minimumLineHeight="16" defaultTabInterval="36">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="83"/>
+                                                    <textTab alignment="left" location="108"/>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Salesperson’s social media or other related marketing efforts.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="108" minimumLineHeight="16" defaultTabInterval="36">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="83"/>
+                                                    <textTab alignment="left" location="108"/>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> 
+By signing this release I understand this permission signifies that photographic recordings of me may be electronically displayed via the Internet. There is no time limit on the validity of this release nor is there any geographic limitation on where these materials may be distributed.
+ 
+By signing this form I acknowledge that I have completely read and fully understand the above release and agree to be bound thereby. I hereby release any and all claims against any person or organization utilizing this material.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="16" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Photograph Release Form" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="in6-Yk-OQy">
+                                <rect key="frame" x="274" y="151" width="220" height="28"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaG-Cn-Yw3">
+                                <rect key="frame" x="263" y="831" width="110" height="35"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.3803921569" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="18"/>
+                                <state key="normal" title="Decline" backgroundImage="gry.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="declinebtn:" destination="vMl-JO-zqm" eventType="touchUpInside" id="kIr-LT-87v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgL-uA-dL0">
+                                <rect key="frame" x="394" y="831" width="110" height="35"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="18"/>
+                                <state key="normal" title="Sign" backgroundImage="logout.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signbtn:" destination="vMl-JO-zqm" eventType="touchUpInside" id="AMD-ER-N3f"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright 2016 Walter’s Automotive Group. Inc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gq7-Hi-vfF">
+                                <rect key="frame" x="242" y="983" width="285" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.28235294117647058" green="0.29803921568627451" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="setting.png" translatesAutoresizingMaskIntoConstraints="NO" id="DhF-Ke-az2">
+                                <rect key="frame" x="730" y="20" width="18" height="21"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYS-at-mED">
+                                <rect key="frame" x="716" y="11" width="46" height="41"/>
+                                <connections>
+                                    <action selector="settingbtn:" destination="vMl-JO-zqm" eventType="touchUpInside" id="JGe-H4-TaB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="neO-wH-blO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="btnBack" destination="d2E-j5-6Vn" id="3Vs-Si-CvR"/>
+                        <outlet property="btnHome" destination="lMi-Io-q3K" id="ypR-Dx-YCT"/>
+                        <outlet property="decbtn" destination="zaG-Cn-Yw3" id="teV-9o-NnX"/>
+                        <outlet property="imgBack" destination="XoL-ov-AYP" id="ptL-id-hGx"/>
+                        <outlet property="imgHome" destination="4YQ-4Z-kz8" id="rTS-OS-sV0"/>
+                        <outlet property="lblAgreement" destination="uKQ-wS-7mD" id="fY6-Sf-b5s"/>
+                        <outlet property="signbtn" destination="jgL-uA-dL0" id="3DQ-t7-lWj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yXE-Iq-lsj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3462" y="-201"/>
+        </scene>
+        <!--Againsign View Controller-->
+        <scene sceneID="e6r-vu-4fe">
+            <objects>
+                <viewController storyboardIdentifier="Again" id="Tux-XF-eR4" customClass="againsignViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O4K-jn-7zG"/>
+                        <viewControllerLayoutGuide type="bottom" id="G1f-Gc-plh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gtc-Dy-GCZ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="efew-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="4CA-Rc-c9J">
+                                <rect key="frame" x="0.0" y="76" width="768" height="948"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agreement" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QK4-Ru-1qw">
+                                <rect key="frame" x="46" y="20" width="72" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="directiong129.png" translatesAutoresizingMaskIntoConstraints="NO" id="BJz-es-7tz">
+                                <rect key="frame" x="18" y="21" width="20" height="20"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqg-8S-lzt">
+                                <rect key="frame" x="6" y="5" width="112" height="63"/>
+                                <connections>
+                                    <action selector="goback:" destination="Tux-XF-eR4" eventType="touchUpInside" id="zkr-ny-RQv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8f-JM-XRZ">
+                                <rect key="frame" x="12" y="17" width="106" height="34"/>
+                                <connections>
+                                    <action selector="gohome:" destination="Tux-XF-eR4" eventType="touchUpInside" id="eZG-fT-4ME"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please Sign " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khr-Wx-TXN">
+                                <rect key="frame" x="315" y="15" width="139" height="32"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="MQ4-ng-uSu">
+                                <rect key="frame" x="20" y="20" width="18" height="18"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgf-XP-NqT">
+                                <rect key="frame" x="393" y="725" width="110" height="35"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="18"/>
+                                <state key="normal" title="Accept" backgroundImage="logout.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="acceptbtnn:" destination="Tux-XF-eR4" eventType="touchUpInside" id="ISI-tf-Ddv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMG-fT-Qw9">
+                                <rect key="frame" x="266" y="725" width="110" height="35"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.3803921569" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="18"/>
+                                <state key="normal" title="Decline" backgroundImage="gry.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="declinebtn:" destination="Tux-XF-eR4" eventType="touchUpInside" id="btN-P3-owB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright 2016 Walter’s Automotive Group. Inc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOB-v8-CcQ">
+                                <rect key="frame" x="224" y="983" width="320" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.29803921570000003" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="setting.png" translatesAutoresizingMaskIntoConstraints="NO" id="yZ0-An-cAc">
+                                <rect key="frame" x="730" y="20" width="18" height="21"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpH-Ag-JVz">
+                                <rect key="frame" x="714" y="12" width="46" height="41"/>
+                                <connections>
+                                    <action selector="settingbtn:" destination="Tux-XF-eR4" eventType="touchUpInside" id="YVM-FR-8Gd"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WJr-DZ-Pgt">
+                                <rect key="frame" x="24" y="195" width="720" height="462"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WK4-pk-Xsn">
+                                        <rect key="frame" x="332" y="0.0" width="7" height="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dted-line.png" translatesAutoresizingMaskIntoConstraints="NO" id="wmT-Lf-uMC">
+                                <rect key="frame" x="77" y="508" width="613" height="1"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign with your Finger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjm-eg-eFE">
+                                <rect key="frame" x="281" y="568" width="206" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2Zc-Lf-CDW"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="accbtn" destination="mgf-XP-NqT" id="n0x-MG-U8c"/>
+                        <outlet property="btnBack" destination="Jqg-8S-lzt" id="oKf-ck-Fhc"/>
+                        <outlet property="btnHome" destination="q8f-JM-XRZ" id="X9J-kn-Lov"/>
+                        <outlet property="decbtn" destination="eMG-fT-Qw9" id="20e-YT-HsY"/>
+                        <outlet property="flastnametxt" destination="WK4-pk-Xsn" id="cFt-QK-mhF"/>
+                        <outlet property="handWirtingView" destination="WJr-DZ-Pgt" id="7UI-vC-IOd"/>
+                        <outlet property="imgBack" destination="BJz-es-7tz" id="9hv-f8-nAS"/>
+                        <outlet property="imgHome" destination="MQ4-ng-uSu" id="nGI-Qs-Qgx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hSt-TS-5K7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4315" y="-183"/>
+        </scene>
+        <!--Photosent View Controller-->
+        <scene sceneID="B7r-xs-2g5">
+            <objects>
+                <viewController storyboardIdentifier="Send" id="4nw-Uk-eVj" customClass="photosentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ywO-57-4nS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Na3-53-lSY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1ka-r3-BbV">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="efew-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jy2-xa-B79">
+                                <rect key="frame" x="0.0" y="76" width="768" height="948"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Photo Sent" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgQ-ga-9bH">
+                                <rect key="frame" x="306" y="15" width="156" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE PHOTO HAS BEEN " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sE-qW-SCS">
+                                <rect key="frame" x="233" y="277" width="236" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4E-6N-VZw">
+                                <rect key="frame" x="254" y="467" width="110" height="110"/>
+                                <state key="normal" backgroundImage="firstd-icn.png"/>
+                                <connections>
+                                    <action selector="signoutbtn:" destination="4nw-Uk-eVj" eventType="touchUpInside" id="Xv1-om-JUh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dze-ci-UFu">
+                                <rect key="frame" x="262" y="585" width="98" height="31"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="15"/>
+                                <state key="normal" title="Sign out">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLN-la-owZ">
+                                <rect key="frame" x="400" y="585" width="107" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="15"/>
+                                <state key="normal" title="Take Another?">
+                                    <color key="titleColor" red="0.71372549019999998" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Confirmation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rc3-IK-ZUY">
+                                <rect key="frame" x="46" y="20" width="85" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="lmB-9f-NzR">
+                                <rect key="frame" x="20" y="20" width="18" height="18"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dz-NV-6nu">
+                                <rect key="frame" x="398" y="467" width="110" height="110"/>
+                                <state key="normal" backgroundImage="images-1.png"/>
+                                <connections>
+                                    <action selector="tabkeantherbtn:" destination="4nw-Uk-eVj" eventType="touchUpInside" id="5ul-pl-KtZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright 2016 Walter’s Automotive Group. Inc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grm-Fs-J36">
+                                <rect key="frame" x="224" y="983" width="320" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.29803921570000003" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="setting.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ozs-tZ-R88">
+                                <rect key="frame" x="730" y="20" width="18" height="21"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwG-wG-SRa">
+                                <rect key="frame" x="14" y="15" width="106" height="34"/>
+                                <connections>
+                                    <action selector="gohome:" destination="4nw-Uk-eVj" eventType="touchUpInside" id="Zda-vj-dxU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bjf-sm-NWV">
+                                <rect key="frame" x="716" y="11" width="46" height="41"/>
+                                <connections>
+                                    <action selector="settingbtn:" destination="4nw-Uk-eVj" eventType="touchUpInside" id="czi-1O-DVH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SENT." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8T-EO-ahf">
+                                <rect key="frame" x="464" y="276" width="77" height="24"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="21"/>
+                                <color key="textColor" red="0.71372549019999998" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xr0-U6-xEm"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rB0-Fr-Ddl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5203" y="-170"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="7c0-TX-hNN">
+            <objects>
+                <viewController storyboardIdentifier="Setting" id="oQH-9k-6yw" customClass="SettingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9pj-wZ-csG"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sb4-m0-rsA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iYk-uu-OfU">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="efew-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="YKl-mL-T39">
+                                <rect key="frame" x="0.0" y="76" width="768" height="948"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7b-z8-AgL">
+                                <rect key="frame" x="89" y="438" width="205" height="37"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KBI-iO-Bsg">
+                                <rect key="frame" x="92" y="483" width="587" height="1"/>
+                                <color key="backgroundColor" red="0.30980392159999998" green="0.32549019610000002" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5d2-QU-llI">
+                                <rect key="frame" x="55" y="20" width="79" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="RWu-kK-4k7">
+                                <rect key="frame" x="26" y="20" width="18" height="18"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTD-Uf-EoO">
+                                <rect key="frame" x="20" y="13" width="78" height="34"/>
+                                <connections>
+                                    <action selector="gohome:" destination="oQH-9k-6yw" eventType="touchUpInside" id="r6M-7f-QL3"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="directiong129.png" translatesAutoresizingMaskIntoConstraints="NO" id="ia2-8b-M10">
+                                <rect key="frame" x="25" y="21" width="20" height="20"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKS-J3-ceH">
+                                <rect key="frame" x="0.0" y="0.0" width="98" height="63"/>
+                                <connections>
+                                    <action selector="goToPreviousScreen:" destination="oQH-9k-6yw" eventType="touchUpInside" id="1yQ-JR-6lR"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bjs-K9-EWc">
+                                <rect key="frame" x="92" y="549" width="587" height="1"/>
+                                <color key="backgroundColor" red="0.30980392159999998" green="0.32549019610000002" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Terms and Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXb-88-3oL">
+                                <rect key="frame" x="89" y="504" width="205" height="37"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rlh-P9-zBy">
+                                <rect key="frame" x="623" y="501" width="67" height="44"/>
+                                <state key="normal" image="arw.png"/>
+                                <connections>
+                                    <action selector="termandcondition:" destination="oQH-9k-6yw" eventType="touchUpInside" id="7Um-le-AOn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIP-5i-UzY">
+                                <rect key="frame" x="330" y="782" width="110" height="35"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="18"/>
+                                <state key="normal" title="Logout" backgroundImage="logout.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="logout:" destination="oQH-9k-6yw" eventType="touchUpInside" id="rMJ-wp-fhc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright 2016 Walter’s Automotive Group. Inc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BPV-Cq-4kH">
+                                <rect key="frame" x="224" y="983" width="320" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.29803921570000003" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhM-wL-L6c">
+                                <rect key="frame" x="318" y="15" width="133" height="32"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyo-gs-vlo">
+                                <rect key="frame" x="623" y="435" width="67" height="44"/>
+                                <state key="normal" image="arw.png"/>
+                                <connections>
+                                    <action selector="privacypolicy:" destination="oQH-9k-6yw" eventType="touchUpInside" id="YLp-NF-Sqn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="btnBackArrow" destination="hKS-J3-ceH" id="1f8-a0-1LV"/>
+                        <outlet property="btnHome" destination="gTD-Uf-EoO" id="W1S-W9-1qG"/>
+                        <outlet property="imgBackArrow" destination="ia2-8b-M10" id="IxI-5d-r2Q"/>
+                        <outlet property="imgHome" destination="RWu-kK-4k7" id="0ek-Hz-Ikj"/>
+                        <outlet property="lblHome" destination="5d2-QU-llI" id="D4t-0O-q0G"/>
+                        <outlet property="logbtn" destination="zIP-5i-UzY" id="yPZ-QH-bOX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dbc-ZP-W0H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6243" y="-136"/>
+        </scene>
+        <!--Termcondition View Controller-->
+        <scene sceneID="kf9-9C-kYS">
+            <objects>
+                <viewController storyboardIdentifier="Term" id="eGg-Oo-wHA" customClass="termconditionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OuR-A7-hOZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="KYm-gy-ZrZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EOx-WU-wyT">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="efew-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="spc-cT-0fr">
+                                <rect key="frame" x="0.0" y="76" width="768" height="948"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Terms and Conditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WyX-l3-cWT">
+                                <rect key="frame" x="298" y="15" width="205" height="32"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Back to Setting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Yi-XK-3QB">
+                                <rect key="frame" x="71" y="20" width="104" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="tPw-LG-YgV">
+                                <rect key="frame" x="26" y="20" width="18" height="18"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysl-OT-7X6">
+                                <rect key="frame" x="12" y="15" width="46" height="33"/>
+                                <connections>
+                                    <action selector="gohome:" destination="eGg-Oo-wHA" eventType="touchUpInside" id="ZS0-To-0Bu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlh-UA-qSY">
+                                <rect key="frame" x="66" y="15" width="94" height="30"/>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="15"/>
+                                <connections>
+                                    <action selector="gosetting:" destination="eGg-Oo-wHA" eventType="touchUpInside" id="gyb-bK-Kth"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l1m-uZ-ZPQ">
+                                <rect key="frame" x="59" y="20" width="1" height="25"/>
+                                <color key="backgroundColor" red="0.33725490200000002" green="0.3411764706" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cA-Mx-fhJ">
+                                <rect key="frame" x="55" y="131" width="658" height="838"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Guiding Principles:">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Our dealership respects the privacy of individuals who visit our Web sites, use our apps, send us e-mail, or participate in features/services we offer online. Accordingly, our policy regarding online privacy has been developed using the following guiding principles:
+Our dealership maintains a strict "no-spam" policy. Subscribers to our e-mail services (or any other feature/service found on our Web site) will not receive unsolicited e-mail messages from us. Our dealership collects information online primarily to provide our visitors with a more relevant experience on our sites. When doing so, we will make every reasonable effort to avoid excessive or irrelevant collection of data. Our dealership will take reasonable physical, electronic and managerial measures to safeguard and secure any information you provide to us (e.g. data will be stored in protected databases on secured servers with restricted access). Our dealership will not share any information you've provided to us with anyone without your consent other than to provide the service you've requested. At the time you register for any such service, you will be notified of, and asked to consent to, the sharing of your information with any particular third party necessary to the provision of the requested service.
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Information Voluntarily Provided">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">:
+Any information you provide to us (i.e. name, e-mail address, etc.) when you enroll in one of our E-Mail Reminder Services, request information, or use any of the other interactive portions of our Web sites, is securely maintained on our Web server and internal systems. This information may be used to provide you with information you've requested about our company, our products and our services, or to provide you with special notices. You may opt out of receiving future communications at any time (see opt-out Procedures below). This data may also be used to tailor your experience on our sites by providing content that is relevant to your interests and geographic region.
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Disclosure of Personal Information:">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Our dealership understands the importance of your privacy. We collect and maintain the personal information of our consumers for our use and our subsidiaries. We do not sell, rent, or trade consumer information to third parties, other than as described below, and never without your consent. Third parties may collect personally identifiable information about your online activities over time and across different websites when you use this website.
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Compliance with Law/Safety:">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Our dealership may disclose specific personal information based on a good faith belief that such disclosure is necessary to comply with or conform to the law or that such disclosure is necessary to protect the users of our Web sites, the sites themselves, or the public.
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="With Consent:">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Other than as set forth in this Privacy Policy, you will be notified when any personally-identifiable information about you may be shared with third parties, and you will be given the opportunity to decline to share that information.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="lblTitle" destination="WyX-l3-cWT" id="scs-nk-zsL"/>
+                        <outlet property="txtTerm_condition" destination="9cA-Mx-fhJ" id="ptb-l6-Mbd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="39u-6G-cEh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7176" y="-113"/>
+        </scene>
+        <!--Phottooo View Controller-->
+        <scene sceneID="zt6-wf-h72">
+            <objects>
+                <viewController storyboardIdentifier="Photo" id="Zis-B0-u7L" customClass="phottoooViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UQM-Hp-Qhu"/>
+                        <viewControllerLayoutGuide type="bottom" id="IIy-M4-WzG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xmx-u6-IdO">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Photo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TvI-7f-kkd">
+                                <rect key="frame" x="277" y="9" width="220" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="ZaJ-dz-vj4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RE-TAKE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVb-i2-NgC">
+                                <rect key="frame" x="351" y="915" width="73" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ZCQ-gW-d4H"/>
+                                    <constraint firstAttribute="width" constant="73" id="c3y-bD-viX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.78000000000000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit Photo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAz-RP-EAJ">
+                                <rect key="frame" x="61" y="18" width="75" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="5Mb-ad-bm9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="haf-re-0Vp">
+                                <rect key="frame" x="20" y="20" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="ARt-vI-GG9"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="06n-Db-W9N">
+                                <rect key="frame" x="45" y="24" width="10" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="4SC-fb-3U8"/>
+                                    <constraint firstAttribute="height" constant="10" id="7TB-nn-v9L"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="setting.png" translatesAutoresizingMaskIntoConstraints="NO" id="H4t-EB-Axl">
+                                <rect key="frame" x="730" y="20" width="18" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="x7K-cQ-cX8"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgW-QQ-tIo">
+                                <rect key="frame" x="8" y="13" width="36" height="35"/>
+                                <connections>
+                                    <action selector="gohome:" destination="Zis-B0-u7L" eventType="touchUpInside" id="HCx-US-DN2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ri9-Mr-vJP">
+                                <rect key="frame" x="45" y="9" width="79" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="33S-Qu-u9I"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="goobackbtn:" destination="Zis-B0-u7L" eventType="touchUpInside" id="ll1-Fh-aKd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YX6-rI-kyG">
+                                <rect key="frame" x="714" y="9" width="47" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="yCs-Oi-dO0"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="settingbtn:" destination="Zis-B0-u7L" eventType="touchUpInside" id="Zzm-lk-4rS"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYw-Bq-UaC">
+                                <rect key="frame" x="0.0" y="82" width="768" height="753"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DIp-Yi-1UT">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="753"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KNF-KJ-2oN">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="753"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Friendly Service Call Me!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMf-GJ-UyE">
+                                        <rect key="frame" x="413" y="668" width="238" height="19"/>
+                                        <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="13"/>
+                                        <color key="textColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKt-UA-2fb">
+                                        <rect key="frame" x="290" y="682" width="361" height="35"/>
+                                        <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ui-4c-KJQ">
+                                        <rect key="frame" x="413" y="711" width="238" height="21"/>
+                                        <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="16"/>
+                                        <color key="textColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fc.png" translatesAutoresizingMaskIntoConstraints="NO" id="WFa-7V-h3F">
+                                        <rect key="frame" x="659" y="664" width="74" height="74"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="KNF-KJ-2oN" firstAttribute="leading" secondItem="vYw-Bq-UaC" secondAttribute="leading" id="BRd-Hg-cus"/>
+                                    <constraint firstAttribute="trailing" secondItem="KNF-KJ-2oN" secondAttribute="trailing" id="Mwe-jm-EB2"/>
+                                    <constraint firstItem="KNF-KJ-2oN" firstAttribute="top" secondItem="vYw-Bq-UaC" secondAttribute="top" id="Tk0-Tx-qxA"/>
+                                    <constraint firstAttribute="bottom" secondItem="KNF-KJ-2oN" secondAttribute="bottom" id="UMW-u7-0zj"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arw-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="2W8-lS-c4b">
+                                <rect key="frame" x="0.0" y="335" width="80" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="Pan-VL-G1s"/>
+                                    <constraint firstAttribute="width" constant="80" id="eUJ-sr-Oad"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRc-WL-tEn">
+                                <rect key="frame" x="5" y="375" width="70" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="7uW-sh-f7n"/>
+                                    <constraint firstAttribute="width" constant="70" id="ZLm-o0-812"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="backkbtn:" destination="Zis-B0-u7L" eventType="touchUpInside" id="3kn-ae-jhA"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="correct.png" translatesAutoresizingMaskIntoConstraints="NO" id="T0G-NX-xeE">
+                                <rect key="frame" x="689" y="335" width="80" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="vFS-wi-Rp2"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOe-fq-USY">
+                                <rect key="frame" x="691" y="373" width="76" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="Rmv-Se-JWx"/>
+                                    <constraint firstAttribute="width" constant="76" id="gF8-l3-HQB"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="goagrementbtn:" destination="Zis-B0-u7L" eventType="touchUpInside" id="yWL-CY-K2r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOy-JZ-64c">
+                                <rect key="frame" x="347" y="867" width="81" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="81" id="1ax-1p-KZO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway" family="Raleway" pointSize="17"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="retakebtn:" destination="Zis-B0-u7L" eventType="touchUpInside" id="UDr-Xv-ySx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vYw-Bq-UaC" secondAttribute="trailing" id="09g-8g-HTk"/>
+                            <constraint firstItem="H4t-EB-Axl" firstAttribute="centerY" secondItem="mgW-QQ-tIo" secondAttribute="centerY" id="1L0-gy-qBx"/>
+                            <constraint firstItem="06n-Db-W9N" firstAttribute="leading" secondItem="Ri9-Mr-vJP" secondAttribute="leading" id="1b7-7t-OSX"/>
+                            <constraint firstItem="H4t-EB-Axl" firstAttribute="centerY" secondItem="YX6-rI-kyG" secondAttribute="centerY" id="1pV-xd-Q1M"/>
+                            <constraint firstItem="2W8-lS-c4b" firstAttribute="leading" secondItem="vYw-Bq-UaC" secondAttribute="leading" id="22w-KE-ZYJ"/>
+                            <constraint firstItem="vYw-Bq-UaC" firstAttribute="top" secondItem="H4t-EB-Axl" secondAttribute="bottom" constant="41" id="7Ks-Gb-tm0"/>
+                            <constraint firstItem="vRc-WL-tEn" firstAttribute="centerY" secondItem="2W8-lS-c4b" secondAttribute="centerY" id="87o-vN-BjS"/>
+                            <constraint firstItem="2W8-lS-c4b" firstAttribute="top" secondItem="T0G-NX-xeE" secondAttribute="top" id="Cj7-Uy-8Fn"/>
+                            <constraint firstItem="IIy-M4-WzG" firstAttribute="top" secondItem="dOy-JZ-64c" secondAttribute="bottom" constant="81" id="D35-6n-ehW"/>
+                            <constraint firstItem="Ri9-Mr-vJP" firstAttribute="firstBaseline" secondItem="YX6-rI-kyG" secondAttribute="firstBaseline" id="GBb-Fi-dOY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YX6-rI-kyG" secondAttribute="trailing" constant="-13" id="Hbm-aZ-vcs"/>
+                            <constraint firstItem="vRc-WL-tEn" firstAttribute="centerX" secondItem="2W8-lS-c4b" secondAttribute="centerX" id="KML-4y-B6F"/>
+                            <constraint firstItem="Ri9-Mr-vJP" firstAttribute="centerY" secondItem="06n-Db-W9N" secondAttribute="centerY" id="Lmm-N1-hNX"/>
+                            <constraint firstItem="haf-re-0Vp" firstAttribute="leading" secondItem="Xmx-u6-IdO" secondAttribute="leadingMargin" id="OzK-YT-KdJ"/>
+                            <constraint firstItem="mVb-i2-NgC" firstAttribute="centerX" secondItem="dOy-JZ-64c" secondAttribute="centerX" id="OzV-4e-P5j"/>
+                            <constraint firstItem="GAz-RP-EAJ" firstAttribute="leading" secondItem="06n-Db-W9N" secondAttribute="trailing" constant="6" id="T5u-DZ-YBi"/>
+                            <constraint firstItem="TvI-7f-kkd" firstAttribute="centerX" secondItem="mVb-i2-NgC" secondAttribute="centerX" id="Tir-Ye-HI1"/>
+                            <constraint firstItem="vYw-Bq-UaC" firstAttribute="top" secondItem="Ri9-Mr-vJP" secondAttribute="bottom" constant="33" id="VQF-nt-bwg"/>
+                            <constraint firstItem="dOy-JZ-64c" firstAttribute="top" secondItem="vYw-Bq-UaC" secondAttribute="bottom" constant="32" id="WVg-Gc-dME"/>
+                            <constraint firstItem="haf-re-0Vp" firstAttribute="top" secondItem="UQM-Hp-Qhu" secondAttribute="bottom" id="XT0-Ec-gRj"/>
+                            <constraint firstItem="H4t-EB-Axl" firstAttribute="top" secondItem="haf-re-0Vp" secondAttribute="top" id="XoE-0s-fdp"/>
+                            <constraint firstItem="06n-Db-W9N" firstAttribute="centerY" secondItem="haf-re-0Vp" secondAttribute="centerY" id="Y8c-fX-PTY"/>
+                            <constraint firstItem="06n-Db-W9N" firstAttribute="leading" secondItem="mgW-QQ-tIo" secondAttribute="trailing" constant="1" id="YDR-CW-mG1"/>
+                            <constraint firstItem="QOe-fq-USY" firstAttribute="centerY" secondItem="T0G-NX-xeE" secondAttribute="centerY" id="geZ-an-5WC"/>
+                            <constraint firstItem="06n-Db-W9N" firstAttribute="top" secondItem="UQM-Hp-Qhu" secondAttribute="bottom" constant="4" id="gjV-RA-wE0"/>
+                            <constraint firstItem="mgW-QQ-tIo" firstAttribute="leading" secondItem="Xmx-u6-IdO" secondAttribute="leadingMargin" constant="-12" id="h0F-lg-HBh"/>
+                            <constraint firstItem="vYw-Bq-UaC" firstAttribute="top" secondItem="TvI-7f-kkd" secondAttribute="bottom" constant="37" id="hBi-GJ-gv0"/>
+                            <constraint firstItem="vYw-Bq-UaC" firstAttribute="top" secondItem="YX6-rI-kyG" secondAttribute="bottom" constant="30" id="ia7-GP-Ekd"/>
+                            <constraint firstItem="IIy-M4-WzG" firstAttribute="top" secondItem="mVb-i2-NgC" secondAttribute="bottom" constant="88" id="irK-if-IpM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QOe-fq-USY" secondAttribute="trailing" constant="-19" id="jK3-YB-U3h"/>
+                            <constraint firstItem="Ri9-Mr-vJP" firstAttribute="leading" secondItem="haf-re-0Vp" secondAttribute="trailing" constant="7" id="k19-7j-Adv"/>
+                            <constraint firstItem="H4t-EB-Axl" firstAttribute="trailing" secondItem="Xmx-u6-IdO" secondAttribute="trailingMargin" id="lli-yu-qqQ"/>
+                            <constraint firstItem="T0G-NX-xeE" firstAttribute="bottom" secondItem="2W8-lS-c4b" secondAttribute="bottom" id="n3s-bG-u2h"/>
+                            <constraint firstItem="vYw-Bq-UaC" firstAttribute="top" secondItem="GAz-RP-EAJ" secondAttribute="bottom" constant="42" id="ndU-5o-CHJ"/>
+                            <constraint firstItem="GAz-RP-EAJ" firstAttribute="centerY" secondItem="06n-Db-W9N" secondAttribute="centerY" id="qfI-oK-Peh"/>
+                            <constraint firstItem="YX6-rI-kyG" firstAttribute="baseline" secondItem="Ri9-Mr-vJP" secondAttribute="baseline" id="rnL-ak-DSW"/>
+                            <constraint firstItem="vYw-Bq-UaC" firstAttribute="leading" secondItem="Xmx-u6-IdO" secondAttribute="leading" id="sNL-IJ-pFZ"/>
+                            <constraint firstItem="TvI-7f-kkd" firstAttribute="leading" secondItem="Xmx-u6-IdO" secondAttribute="leading" constant="277" id="uFo-r4-aO9"/>
+                            <constraint firstItem="vYw-Bq-UaC" firstAttribute="top" secondItem="mgW-QQ-tIo" secondAttribute="bottom" constant="34" id="vgf-ct-xx2"/>
+                            <constraint firstItem="Ri9-Mr-vJP" firstAttribute="top" secondItem="TvI-7f-kkd" secondAttribute="top" id="wA6-b4-LaJ"/>
+                            <constraint firstItem="YX6-rI-kyG" firstAttribute="top" secondItem="TvI-7f-kkd" secondAttribute="top" id="xTa-cP-FN3"/>
+                            <constraint firstItem="mVb-i2-NgC" firstAttribute="top" secondItem="vYw-Bq-UaC" secondAttribute="bottom" constant="80" id="y23-Rm-eHB"/>
+                            <constraint firstItem="IIy-M4-WzG" firstAttribute="top" secondItem="2W8-lS-c4b" secondAttribute="bottom" constant="529" id="ylD-aK-KT2"/>
+                            <constraint firstItem="QOe-fq-USY" firstAttribute="centerX" secondItem="T0G-NX-xeE" secondAttribute="centerX" id="zRP-nJ-3us"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="iXb-JO-c8o"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="backgroundImage" destination="KNF-KJ-2oN" id="j3K-W5-qZi"/>
+                        <outlet property="imageview" destination="DIp-Yi-1UT" id="UJi-Vr-11u"/>
+                        <outlet property="profileImage" destination="WFa-7V-h3F" id="kTG-jZ-X8d"/>
+                        <outlet property="txtContact" destination="0ui-4c-KJQ" id="Cmg-QA-NQy"/>
+                        <outlet property="txtName" destination="rKt-UA-2fb" id="1EP-Fc-dtJ"/>
+                        <outlet property="wrapperImageView" destination="vYw-Bq-UaC" id="2Ug-iU-Bk6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ehX-lJ-lVN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2534" y="-193"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aPv-mX-s2n">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AF9-fC-iZa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dY1-Qu-UMf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ztC-ki-2zd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xfD-gL-an1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1680" y="-430"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arw-1.png" width="140" height="280"/>
+        <image name="arw.png" width="13" height="25"/>
+        <image name="asdf.png" width="90" height="90"/>
+        <image name="back-arrow-1.png" width="140" height="280"/>
+        <image name="bk.png" width="24" height="24"/>
+        <image name="correct.png" width="140" height="277"/>
+        <image name="directiong129.png" width="100" height="100"/>
+        <image name="dted-line.png" width="1228" height="1"/>
+        <image name="efew-1.png" width="1538" height="2048"/>
+        <image name="fc.png" width="64" height="63"/>
+        <image name="firstd-icn.png" width="274" height="273"/>
+        <image name="ge.png" width="90" height="90"/>
+        <image name="gry.png" width="220" height="90"/>
+        <image name="gs.png" width="640" height="90"/>
+        <image name="help.png" width="35" height="39"/>
+        <image name="home.png" width="24" height="25"/>
+        <image name="images-1.png" width="273" height="273"/>
+        <image name="key-buttdsdon.png" width="90" height="90"/>
+        <image name="logout.png" width="220" height="90"/>
+        <image name="metr-icon.png" width="273" height="273"/>
+        <image name="mgsds.png" width="90" height="90"/>
+        <image name="setting.png" width="24" height="25"/>
+        <image name="waltr.png" width="499" height="156"/>
+    </resources>
+</document>

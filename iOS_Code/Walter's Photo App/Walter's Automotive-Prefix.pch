@@ -1,0 +1,17 @@
+//
+//  Walter's Automotive-Prefix.pch
+//  Walter's Automotive
+//
+//  Created by Hardik Ajmeri on 15/01/16.
+//  Copyright © 2016 Apple. All rights reserved.
+//
+
+#ifndef Walter_s_Automotive_Prefix_pch
+#define Walter_s_Automotive_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AppDelegate.h"
+#define APPDELEGATE ((AppDelegate*)[[UIApplication sharedApplication]delegate])
+
+#endif /* Walter_s_Automotive_Prefix_pch */

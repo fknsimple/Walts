@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraView">
+            <connections>
+                <outlet property="btnCancel" destination="BI4-ix-1Aq" id="ITO-gt-k7r"/>
+                <outlet property="btnCapture" destination="aBx-D2-2Nz" id="9nt-ug-BSr"/>
+                <outlet property="btnToggleCamera" destination="fPf-mv-jHo" id="dBh-Ju-Xte"/>
+                <outlet property="controllView" destination="MkX-87-HGU" id="bw4-e4-9HR"/>
+                <outlet property="frameImageView" destination="fN4-dN-uM2" id="1vg-2E-qEk"/>
+                <outlet property="previewView" destination="5Ll-iY-erq" id="Z5u-94-Fsj"/>
+                <outlet property="view" destination="iN0-l3-epB" id="4oS-7T-VCA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ll-iY-erq">
+                    <rect key="frame" x="0.0" y="135" width="768" height="753"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="753" id="ebk-7x-zzq"/>
+                        <constraint firstAttribute="width" constant="768" id="uVb-C6-Imf"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fN4-dN-uM2">
+                    <rect key="frame" x="0.0" y="136" width="768" height="753"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="753" id="I2S-IW-w8D"/>
+                        <constraint firstAttribute="width" constant="768" id="Yb4-uA-UCW"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MkX-87-HGU">
+                    <rect key="frame" x="698" y="0.0" width="70" height="1024"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPf-mv-jHo">
+                            <rect key="frame" x="15" y="15" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="knI-Iv-dfM"/>
+                                <constraint firstAttribute="height" constant="40" id="rqA-rs-IdZ"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                            <state key="normal" title="Button" image="Toggle.png"/>
+                            <connections>
+                                <action selector="ToggleCameraPressed:" destination="-1" eventType="touchUpInside" id="A71-xw-g5k"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BI4-ix-1Aq">
+                            <rect key="frame" x="15" y="969" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="Uqi-id-WaO"/>
+                                <constraint firstAttribute="height" constant="40" id="drf-Vw-yYE"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                            <state key="normal" title="Button" image="cancel.png"/>
+                            <connections>
+                                <action selector="CancelPressed:" destination="-1" eventType="touchUpInside" id="BOP-NJ-Dzs"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBx-D2-2Nz">
+                            <rect key="frame" x="15" y="492" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="4Tr-Tx-j9F"/>
+                                <constraint firstAttribute="height" constant="40" id="dub-v4-ivf"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                            <state key="normal" title="Button" image="Capture.png"/>
+                            <connections>
+                                <action selector="CapturePressed:" destination="-1" eventType="touchUpInside" id="q3g-2U-SNQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.20000000000000001" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="BI4-ix-1Aq" secondAttribute="bottom" constant="15" id="3f3-xS-tfE"/>
+                        <constraint firstAttribute="width" constant="70" id="Fay-ST-FQE"/>
+                        <constraint firstItem="aBx-D2-2Nz" firstAttribute="centerY" secondItem="MkX-87-HGU" secondAttribute="centerY" id="UP6-S1-q9h"/>
+                        <constraint firstAttribute="height" constant="1024" id="VfE-r9-KHu"/>
+                        <constraint firstItem="BI4-ix-1Aq" firstAttribute="centerX" secondItem="MkX-87-HGU" secondAttribute="centerX" id="Z1t-Zm-A9J"/>
+                        <constraint firstItem="fPf-mv-jHo" firstAttribute="top" secondItem="MkX-87-HGU" secondAttribute="top" constant="15" id="jIY-UF-dMg"/>
+                        <constraint firstItem="aBx-D2-2Nz" firstAttribute="centerX" secondItem="MkX-87-HGU" secondAttribute="centerX" id="tl4-6d-Bub"/>
+                        <constraint firstItem="fPf-mv-jHo" firstAttribute="centerX" secondItem="MkX-87-HGU" secondAttribute="centerX" id="z4t-5K-foD"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="efew-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Wc-fq-ns3">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="2Wc-fq-ns3" secondAttribute="bottom" id="73Y-sE-N3h"/>
+                <constraint firstItem="2Wc-fq-ns3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ccp-sT-vhw"/>
+                <constraint firstItem="5Ll-iY-erq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="MGp-Tl-OR4"/>
+                <constraint firstAttribute="trailing" secondItem="2Wc-fq-ns3" secondAttribute="trailing" id="MWe-w6-nJ9"/>
+                <constraint firstItem="2Wc-fq-ns3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Mji-kn-W4A"/>
+                <constraint firstItem="fN4-dN-uM2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SNl-Dw-Tkz"/>
+                <constraint firstAttribute="trailing" secondItem="MkX-87-HGU" secondAttribute="trailing" id="Uoy-bv-AXj"/>
+                <constraint firstItem="fN4-dN-uM2" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ed2-Y9-cwV"/>
+                <constraint firstItem="MkX-87-HGU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jq8-dM-Ita"/>
+                <constraint firstItem="5Ll-iY-erq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="tBM-IO-B9V"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Capture.png" width="512" height="512"/>
+        <image name="Toggle.png" width="512" height="512"/>
+        <image name="cancel.png" width="512" height="512"/>
+        <image name="efew-1.png" width="1538" height="2048"/>
+    </resources>
+</document>
